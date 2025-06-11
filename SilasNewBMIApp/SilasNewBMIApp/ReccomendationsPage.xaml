@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SilasNewBMIApp.RecommendationsPage"
+             Title="Health Recommendations"
+             BackgroundColor="White">
+
+	<ScrollView>
+		<VerticalStackLayout Padding="20" Spacing="20">
+
+			<Frame BackgroundColor="#F4F4F4" CornerRadius="12" Padding="15">
+				<Label x:Name="RecommendationLabel"
+                       FontSize="16"
+                       TextColor="Black"
+                       LineBreakMode="WordWrap"
+                       FontAttributes="None" />
+			</Frame>
+
+			<Button Text="Back to BMI Result"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    BorderColor="Black"
+                    BorderWidth="1"
+                    CornerRadius="12"
+                    HeightRequest="50"
+                    Clicked="OnBackToBMIResultClicked" />
+
+			<Button Text="Back to Input"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    CornerRadius="12"
+                    HeightRequest="50"
+                    Clicked="OnBackToInputClicked" />
+		</VerticalStackLayout>
+	</ScrollView>
+</ContentPage>

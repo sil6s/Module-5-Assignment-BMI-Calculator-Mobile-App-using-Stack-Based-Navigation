@@ -1,0 +1,26 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# VS Code settings
+.vscode/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Platform build folders
+Platforms/**/bin/
+Platforms/**/obj/
+
+# VS config
+*.vs/
+
+# MAC
+.DS_Store
+
+# Rider IDE
+.idea/
